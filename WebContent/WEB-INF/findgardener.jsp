@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html >
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -8,6 +8,14 @@
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/resources/allpages.css">
 <title>Insert title here</title>
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places"></script>
+
+	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/scripts/map.js"></script>
+		<script>
+			google.maps.event.addDomListener(window, 'load', initialize);
+		</script>
+
 </head>
 <body>
 <body>
@@ -262,14 +270,14 @@
 			<br>
 		</div>
 		<!-- jquery-->
-		<script src="js/jquery-1.11.0.js"></script>
+		<script src="resources/js/jquery-1.11.0.js"></script>
 		<!-- javascript-->
-		<script src="js/bootstrap.js"></script>
+		<script src="resources/js/bootstrap.js"></script>
 		
 		
 		<!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
+    <script src="resources/js/jquery.easing.min.js"></script>
+    <script src="resources/js/scrolling-nav.js"></script>
 		
 		
 		

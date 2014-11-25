@@ -3,7 +3,7 @@
 <%@ page import="java.util.*"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 <meta name="generator" content="Bootply" />
@@ -76,6 +76,7 @@
 
 									</div></li>
 								<li class=""><a class="" href="Register">Register</a></li>
+								<li class=""><a class="" href=findgardener>Find a gardener</a></li>
 							</c:when>
 							<c:otherwise>
 								<li class=""><a class="" href="#">${sessionScope.user.username}</a></li>
@@ -100,6 +101,7 @@
 		</div>
 	</div>
 	<!--end navbar-->
+	<!--  
 	<div class="btn-group" data-toggle="buttons">
 		<label class="btn btn-primary"> <input type="radio"
 			name="options" id="option1">Find a Gardener
@@ -108,11 +110,12 @@
 		</label>
 
 	</div>
-
+-->
 	<header>
 	<div class="container">
+	 <br><br><br><br><br><br>
 		<h1 style="font-size: 7vw;">Welcome To Garden People</h1>
-
+	 <br><br><br><br><br><br>
 	</div>
 	</header>
 
